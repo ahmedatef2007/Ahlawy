@@ -1,0 +1,638 @@
+/********************************************* start global rules ******************************************/
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+/************************** End global rules ******************************************************/
+
+/************************************************* start header **************************************/
+.header {
+    background: url(https://media.gettyimages.com/photos/alahly-supporters-cheer-during-the-caf-champions-league-semifinal-picture-id865507394?s=2048x2048) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header .overlay .h1 {
+    font-size: larger;
+    margin-top: 100px;
+}
+
+.header .overlay .plan {
+    margin-top: 5%;
+    border: 4px solid white;
+    font-size: 24px;
+    width: 48%;
+    padding: 2%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.header .overlay .order {
+    border: 4px solid rgb(255, 255, 255);
+    font-size: medium;
+    padding: 1%;
+    margin: 1% 1% 1% 1%;
+}
+
+@media (max-width: 767px) {
+    .header .overlay .plan {
+        float: none;
+        margin: 0% auto 2%;
+        font-size: 26px;
+    }
+}
+
+/**************************************************end header**********************************************************/
+
+/********************************************* Start Futures *************************************************************/
+.ASC {
+    padding: 1%;
+    margin: 1%;
+}
+
+.ASC .h1 {
+    font-size: 3em;
+    color: #555;
+}
+
+.ASC .feat h2 {
+    font-size: 1.5;
+    margin: 10px 0 5px;
+}
+
+.ASC .feat p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+.ASC .feat {
+    float: left;
+    margin: 2%;
+    padding: 2%;
+    color: #555;
+}
+
+.ASC .feat .p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .ASC .feat:first-of-type {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ASC .feat:not(:first-of-type) {
+        width: 46%;
+        float: left;
+        text-align: center;
+    }
+
+    .ASC .feat:last-of-type {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .ASC .feat {
+        width: 28%;
+        margin: 2%;
+        padding: 2%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ASC.feat:first-of-type {
+        background-color: #b8b8b855;
+    }
+
+    .ASC .feat:last-of-type {
+        background-color: #b8b8b855;
+    }
+}
+
+@media (max-width: 767px) {
+    .ASC .feat {
+        margin: auto;
+        width: 100%;
+        display: block;
+    }
+
+    .ASC .feat {
+        text-align: center;
+
+    }
+
+    .ASC .feat:nth-of-type(even) {
+        background-color: #b8b8b855;
+        margin-bottom: 2%;
+
+    }
+}
+
+/****************************************** End Futures **********************************************/
+/*************************************************start about us ***********************/
+.aboutus {
+    background-color: #c4c4c4;
+    padding: 30px 0;
+}
+
+.aboutus .h1 {
+    color: gray;
+    font-size: 50px;
+    margin: 1% 0 8%;
+}
+
+.aboutus .res-p {
+    color: dimgray;
+    font-size: 24px;
+}
+
+/************************************************end about us****************/
+/*********************************start ourworks***************************************************/
+
+@media (min-width: 1200px) {
+
+    /*large screen*/
+    .ourworks .image {
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*meduim screen*/
+    .ourworks .image {
+        width: 33.33333%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*small screen*/
+    .ourworks .image {
+        width: 50%;
+    }
+}
+
+.res-image {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+
+    /*xs screen*/
+    .ourworks .image {
+        width: 100%;
+    }
+}
+
+/**********************************************end ourworks ***************************************/
+
+/**********************************************start pricing ***************************************/
+
+.pricing-table {
+    background-color: #444;
+    color: aliceblue;
+    padding: 50px 0;
+}
+
+.pricing-table .h1 {
+    margin: 0 0 40px 0;
+    font-size: 50px;
+}
+
+.pricing-table .pricing-plan {
+    width: 33.3%;
+    border: 3px solid aliceblue;
+    padding: 20px 0;
+    position: relative;
+}
+
+.pricing-table .pricing-plan h3 {
+    margin: 0 0 10px;
+    font-size: 26px;
+}
+
+.pricing-table .pricing-plan .pricing {
+    display: inline-block;
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: white;
+}
+
+.pricing-table .pricing-plan ul {
+    font-size: 18px;
+    line-height: 2;
+}
+
+@media (max-width: 767px) {
+    .pricing-table .pricing-plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .pricing-table .pricing-plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pricing-table .pricing-plan:not(.ultimate) {
+        margin-right: 1%;
+    }
+
+    .pricing-table .pricing-plan {
+        width: 32.6%;
+    }
+
+    .pricing-table .pricing-plan.plus {
+        left: 33.6%;
+    }
+
+    .pricing-table .pricing-plan.premuim {
+        right: 33.6%;
+    }
+}
+
+/**********************************************end pricing ***************************************/
+
+/**********************************************start  theysay ***************************************/
+.theysay {
+    padding: 50px 0;
+}
+
+.theysay .h1 {
+    font-size: 50px;
+    margin: 0 0 30px;
+    color: #666;
+}
+
+.theysay .person-say {
+    background-color: #eee;
+    padding: 20px;
+    margin: 0 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+@media (min-width: 992px) {
+    .theysay .person-say:first-of-type {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .theysay .person-say:not(:first-of-type) {
+        width: 40%;
+        margin-left: 8%;
+        margin-right: -4%;
+    }
+}
+
+.theysay .person-say .avatar {
+    width: 120px;
+    margin-right: 2%;
+}
+
+.theysay .person-say h3 {
+    margin: 0 0 10px;
+}
+
+.theysay .person-say p {
+    margin: 0;
+    line-height: 1.6;
+    width: calc(100% - 140px);
+}
+
+@media (max-width: 767px) {
+    .theysay .person-say .avatar {
+        float: none;
+        margin: auto;
+    }
+
+    .theysay .person-say h3 {
+        float: none;
+        text-align: center;
+    }
+
+    .theysay .person-say p {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .theysay .person-say:first-of-type {
+        width: 100%;
+    }
+
+    .theysay .person-say:not(:first-of-type) {
+        width: 48%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .theysay .person-say:not(:first-of-type) .avatar {
+        float: none;
+        margin: auto;
+    }
+
+    .theysay .person-say:not(:first-of-type) h3 {
+        float: none;
+        text-align: center;
+    }
+
+    .theysay .person-say:not(:first-of-type) p {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+/**********************************************end theysay ***************************************/
+/**********************************************start info  ***************************************/
+.info {
+    background-color: #c4c4c4;
+    padding: 30px 0;
+    font-size: 18px;
+}
+
+.info .h1 {
+    color: gray;
+    font-size: 50px;
+    margin: 1% 0 8%;
+}
+
+.info .info-list li {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 15px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.info .info-content>div {
+    padding: 20px;
+    background-color: #ffffff;
+    line-height: 2;
+}
+
+.info .info-content {
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.info .info-content>div:not(:first-child) {
+    display: none;
+}
+
+.info .info-list li.selected {
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+
+@media (max-width: 767px) {
+    .info .info-list li {
+        display: block;
+    }
+}
+
+/**********************************************end info  ***************************************/
+/******************************************start footer *************************************************/
+.footer {
+    background-color: #333333;
+    color: #eee;
+}
+
+.footer .copyrights {
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+.footer .design {
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .footer .copyrights {
+
+        width: 100%;
+    }
+
+    .footer .design {
+
+        width: 100%;
+    }
+
+}
+
+
+
+/******************************************end footer*************************************************/
+
+
+/******************************************start media *************************************************/
+@media (max-width: 767px) {
+
+    /*mobile tablet rules */
+    /*اي شاشة العرض بتاعها اقل من او يساوي ال 767 بكسل هيتطبق عليها الكلام دة */
+    /*مفيش عرض عشان يملا الشاشة */
+    /*لو مديتش للعنصر بلوك ويدس بيملا الشاشة */
+    .visible-xs {
+        /* عشان يبقي مخفي في كل الشاشات الا الموبايل  */
+        display: block !important;
+    }
+
+    .hidden-xs {
+        /*يعني في شاشة الموبايل اخفي العنصر اللي الكلاس دة موجود فيه */
+        display: none;
+    }
+
+    .res-p {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* حطيت الكونتينر في الميديا كويري عامة عشان هوو مش مرتبط ب ديف معين */
+    /*من اول 768 بكسل لحد 991 بكسل  */
+    /*small screen rules*/
+
+    .container {
+        width: 750px;
+    }
+
+    .visible-sm {
+        /* عشان يبقي مخفي في كل الشاشات الا الموبايل  */
+        display: block !important;
+    }
+
+    .hidden-sm {
+        display: none;
+    }
+}
+
+/*عشان يبقي موجود في الميديا دي بس مش كل اللي بعدها او كل اللي قبلها */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* حطيت الكونتينر في الميديا كويري عامة عشان هوو مش مرتبط ب ديف معين */
+    /* من اول 992 بكسل لحد 1199 بكسل  وبعد كدة مش هيشتغل */
+    /*meduim screen rules*/
+
+    .container {
+        width: 970px;
+    }
+
+    .visible-md {
+        /* عشان يبقي مخفي في كل الشاشات الا الموبايل  */
+        display: block !important;
+    }
+
+    .hidden-md {
+        display: none;
+    }
+}
+
+/*كدة هيكون موجود من اول ال1200 بكسل وانت طالع */
+@media (min-width: 1200px) {
+    /* حطيت الكونتينر في الميديا كويري عامة عشان هوو مش مرتبط ب ديف معين */
+    /*العرض دة وانت طالع */
+    /*large screen rules*/
+
+    .container {
+        width: 1170px;
+    }
+
+    .visible-lg {
+        /* عشان يبقي مخفي في كل الشاشات الا الموبايل  */
+        display: block !important;
+    }
+
+    .hidden-lg {
+        display: none;
+    }
+}
+
+/*****************************************End media ***********************************************************/
+
+/*********************************** start my framework *********************************/
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*الكونتينر عندي عايزه دايما في النص */
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+    /* عشان يبقي مخفي في كل الشاشات الا الموبايل  */
+    display: none;
+}
+
+/*عشان لو عايز اقلب الموقع عربي اغير هنا بس */
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
+.h1 {
+    font-size: 2em;
+}
+
+.res-p {
+    line-height: 1.8;
+}
+
+.calssic-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.image-thumb {
+    padding: 3px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.imageb {
+    width: 500px;
+    height: 500px;
+}
+
+/********************************************* end framework  ************************************/
