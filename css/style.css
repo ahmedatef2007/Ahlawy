@@ -16,7 +16,7 @@ body {
 
 /************************************************* start header **************************************/
 .header {
-    background: url(https://media.gettyimages.com/photos/alahly-supporters-cheer-during-the-caf-champions-league-semifinal-picture-id865507394?s=2048x2048) no-repeat top center;
+    background: url(../images/05.jpg) no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -618,6 +618,7 @@ body {
     padding: 0;
     margin: 0;
     list-style: none;
+    height: 300px;
 }
 
 .image-circle {
@@ -636,3 +637,9 @@ body {
 }
 
 /********************************************* end framework  ************************************/
+.h2 {
+    text-align: center;
+    font-size: 2em;
+
+
+}
